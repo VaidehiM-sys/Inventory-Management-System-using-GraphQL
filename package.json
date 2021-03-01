@@ -1,0 +1,35 @@
+{
+  "name": "assignment3-graphQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server -e js,graphql ./server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "babel src --presets react --out-dir public --watch --verbose",
+    "compile": "babel src --presets react  --out-dir public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaidehiM-sys/assignment3-graphQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaidehiM-sys/assignment3-graphQL/issues"
+  },
+  "homepage": "https://github.com/VaidehiM-sys/assignment3-graphQL#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.21.0",
+    "express": "^4.17.1",
+    "graphql": "^0.13.2",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-react": "^7.12.13"
+  }
+}
