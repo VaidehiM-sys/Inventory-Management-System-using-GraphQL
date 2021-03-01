@@ -1,3 +1,4 @@
+
 class ProductList extends React.Component {
 
     constructor() {
@@ -95,7 +96,6 @@ const ProductRow = (props) => (
     </tr>
 )
 
-
 class ProductAdd extends React.Component {
     constructor() {
         super();
@@ -111,7 +111,7 @@ class ProductAdd extends React.Component {
             Category: form.category.value,
             Image: form.image.value,
         });
-        // clearing the form for next inout
+        
         form.price.value = "$";
         form.product.value = "";
         form.image.value = "";

@@ -6,17 +6,17 @@ table, th, td {
   border: 1px solid black;
 }
 
-th,td{
+th,td {
     padding: 5px;
 }
 
-select,input{
+select,input {
     width:150px;
     height:30px ;
     margin: 25px;
 }
 
-label{
+label {
   display: inline-block;
   width: 150px;
 }
