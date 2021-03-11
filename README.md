@@ -26,8 +26,8 @@ app.jsx file that uses GraphQL API and has following :
 
 ## How to run the project
 
-   * In Windows powershell navigate to the project folder and type <b> npm start <b>
-   * In the web browser type localhost:3000/ and the applciation page will be displayed
+   * In Windows powershell navigate to the project folder and type <b> npm start </b>
+   * In the web browser type <b> https://localhost:3000/ </b> and the applciation page will be displayed
    * Add inventory items by filling / choosing appropriate details. The added items will be displayed on the webpage
  
 
