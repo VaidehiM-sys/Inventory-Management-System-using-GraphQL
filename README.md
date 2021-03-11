@@ -23,4 +23,12 @@ app.jsx file that uses GraphQL API and has following :
 *	A list function with a GraphQL query to retrieve data.
 *	A create (add) function with a GraphQL query to create (add) data.
 
+
+## How to run the project
+
+   * In Windows powershell navigate to the project folder and type <b> npm start <b>
+   * In the web browser type localhost:3000/ and the applciation page will be displayed
+   * Add inventory items by filling / choosing appropriate details. The added items will be displayed on the webpage
+ 
+
  
