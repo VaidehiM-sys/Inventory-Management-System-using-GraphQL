@@ -1,15 +1,15 @@
 # Inventory Management System using React.js, GraphQL and Node.js
 
-Inventory Management System developed using React.js to create front end components, Node.js is used as a backend server and API implemented using GraphQL
+Inventory Management System developed using React.js for front end components, Node.js is used as a backend server and API implemented using GraphQL
 
 The project has a schema.graphql file. 
 * Schema.graphql file includes an enum for inventory categories (Shirts, Jeans, Jackets, Sweaters, and Accessories).
 *	Created a type for Product that outlines the following data / scalar types:
-	id: Int!
-	Category: Category!
-	Name: String!
-	Price: Float
-	Image: String
+ * id: Int!
+ * Category: Category!
+ * Name: String!
+ * Price: Float
+ * Image: String
 * Created an input for Product
 *	Created a query and a mutation
 
